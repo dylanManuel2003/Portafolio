@@ -117,7 +117,7 @@ body{
     margin: 0px;
     height: 100vh;
     width: 100%;
-    background-color: #869cff;
+    background: linear-gradient(#1728D4, rgb(220, 15, 250));
     display: flex;
     flex-direction: column;
 }
@@ -132,26 +132,34 @@ body{
     margin: 40px 25px;
     border-radius: 45px;
 }
-.info-container h2{
+.info-text{
+    margin: 25px;
+    color: #fff;
     align-items: flex-start;
     justify-content: right;
-    margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 35px;
 }
-.info-container p{
+.info-text h2{  
+    margin-top: 35px;
+}
+.info-text p{
+    margin-top: 30px;
     font-size: 20px;
 }
 
 .info-extra{
-    height: 50%;
+    height: 50rem;
+    width: 90%;
     background-color: #fff;
     display: flex;
-    margin: none;
+    margin: 25px auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 5);
 }
 .group-container{
     width: 90%;
     height:90%;
-    background-color: #869cff;
+    background-color: transparent;
     margin: auto;
     border-radius: 20%;
     display: grid;
@@ -159,18 +167,28 @@ body{
     gap: 20px;
 }
 .espacio{
+    padding: 20px;
     height: 100%;
     width: 100%;
-    background-color: #fff;
+    background-color: #eee;
     margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 0px rgb(134, 134, 134);
 }
+.espacio h3{
+    margin: 5px;
+}
+.espacio ul{
+    margin: 20px;
+}
+
 
 
 .poyectos{
     margin: 0px;
     height: 100vh;
     width: 100%;
-    background-color: rgb(21, 21, 221);
+    background: linear-gradient(rgb(220, 15, 250), #fff);
 }
 .contenedor {
 	width: 90%;
@@ -284,12 +302,12 @@ body{
     margin: 0px;
     height: 100vh;
     width: 100%;
-    background-color: rgb(246, 35, 35);
+    background: linear-gradient(#fff, #1728D4);
 }
 
 .footer{
     margin: 0px;
     height: 100vh;
     width: 100%;
-    background-color: rgb(255, 255, 34);
+    background: linear-gradient(#1728D4, #222);
 }
