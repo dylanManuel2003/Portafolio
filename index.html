@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,142 +7,126 @@
     <title>Dylan Peralta | mi portafolio | Home</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2e5cc30c24.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="socialMedia">
-            <img src="./img/menu.png" title="Menu" id="menu">
-            <div class="redes-container">
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/dylan-peralta-a947a4217/" class="linkedin" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="https://www.instagram.com/dylann_peralta/?hl=es" class="instagram" title="Instagram"><i class="fab fa-instagram-square"></i></a></li>
-                    <li><a href="https://github.com/dylanManuel2003" class="github" title="GitHub"><i class="fab fa-github-square"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="intro">
-            <h2>Hola soy Dylan, Frontend developer Jr</h2>
-        </div>
-        <a class="btn-header" href="#perfil">Conoce más sobre mi</a>
-    </header>
     
-    <section class="presentation" id="perfil">
-        <section class="info-container">
-			<img src="./img/perfil.jpg" title="Yo re fachero">
-            <div class="info-text">
-				<h2>¿Quien soy?</h2>
-            	<p>Mi nombre es Dylan Peralta, soy un desarrollador web junior, 
-            	tengo conocimientos en tecnologias Fronted y me encuentro estudiando sobre algunas las Backend.<br/>
-            	Me gusta codificar cosas desde cero y disfruto dando vida a las ideas en el navegador.<br/>
-            	No cuento con experiencia mas que mis proyectos, sin embargo, mis ganas de seguir creciendo y aprendiendo aumentan cada día.
-            	</p>
-			</div>
-        </section>
-		<section class="info-extra">
-			<section class="group-container">
-				<div class="espacio">
-					<h3>Tecnologias que manejo:</h3>
-					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-						<li>React.js</li>
-						<li>JSON</li>
-						<li>Node.js</li>
-					</ul>
+	<section class="wrapper" id="home">
+		<header>
+			<nav class="navbar">
+				<div class="brand">
+					<h2><span>D</span>P</h2>
 				</div>
-				<div class="espacio">
-					<h3>Herramientas:</h3>
-					<ul>
-						<li>Dev tools del browser</li>
-						<li>Visual Studio</li>
-						<li>Git y GitHub</li>
-						<li>Figma</li>
-					</ul>
-				</div>
-				<div class="espacio">
-					<h3>Estudios:</h3>
-					<p>Mis conocimientos lo he adquirido de diferntes lugares tales como</p>
-					<ul>
-						<li>Platzi</li>
-						<li>Google Actívate</li>
-						<li>Youtube</li>
-						<li>Developer Mozilla</li>
-						<li>Y muchas otras páginas/sitios web...</li>
-					</ul>
-				</div>
-			</section>
-		</section>
-    </section>
+				<ul class="menu">
+					<li><a class="active" href="#home">Home</a></li>
+					<li><a href="#aboutMe">About me</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 
-    <section class="poyectos">
-        <h2>proyectos</h2>
-        
-	<div class="contenedor">
-		<div class="contenedor-caja">
-			<div class="card" id="proyecto1">
-				<div class="textos">
-					<h3>Página de matemáticas</h3>
-					<p>proyecto de Platzi</p>
-				</div>
+		<main class="main">
+			<img src="./img/perfilSinFondo.png" alt="Dylan Peralta picture">
+			<div class="info-content">
+				<h1>Hi I'm <span>Dylan</span> Peralta</h1>
+				<p>Web Developer Fronted Jr</p>
+				<a download href="#"> 
+					<button class="btn">Download CV</button>
+				</a>
 			</div>
-			<div class="card">
-				<div class="textos">
-					<h3>FalconMasters’ Concert</h3>
-					<p>12 de Noviembre 2021</p>
-				</div>
-			</div>
-			<div class="card">
-				<div class="textos">
-					<h3>Coachella</h3>
-					<p>13 de Diciembre 2021</p>
-				</div>
-			</div>
+		</main>
+	</section>
 
-			<div class="card">
-				<div class="textos">
-					<h3>US Festival</h3>
-					<p>20 de Diciembre 2021</p>
-				</div>
-			</div>
-			<div class="card">
-				<div class="textos">
-					<h3>Altamont Speedway</h3>
-					<p>27 de Diciembre 2021</p>
-				</div>
-			</div>
-			<div class="card">
-				<div class="textos">
-					<h3>Rock In Rio Again</h3>
-					<p>1 de Enero 2021</p>
-				</div>
-			</div>
+	<div class="about" id="aboutMe">
+		<div class="about-info">
+			<h2>About me</h2>
+			<div class="divider"></div>
+			<p>I have knowledge of Frontend technologies such as HTML, CSS, JavaScript, React.js. I like to code things from scratch and I enjoy bringing ideas to life in the browser.</p>
+			<p>I do not have experience other than my projects, however, my desire to continue growing and learning increases every day and I am in search of new experiences.</p>
+			<button class="btn">Read more</button>
 		</div>
-
-		<div class="banner">
-			<h3>Rock Legends 2021</h3>
-			<ul>
-				<li>Guns N' Roses</li>
-				<li>AC/DC</li>
-				<li>Motley Crue</li>
-				<li>The Cult</li>
-				<li>Poison</li>
-				<li>Def Leppard</li>
-			</ul>
-			<button class="boton">Comprar Boletos</button>
-		</div>
+		<img src="./img/pexels-meAloha.jpg" alt="Dylan Peralta image">
 	</div>
-    </section>
+	
+	<section class="portfolio" id="portfolio">
+		<div class="portfolio-headings">
+			<h2>My Portfolio</h2>
+			<div class="divider"></div>
+		</div>
 
-    <section class="contacto">
-        <p>contacto</p>
-    </section>
+		<div class="container">
+			<div class="card">
+				<div class="card-img">
+				</div>
+				<div class="card-title">
+					<h2>Name Project</h2>
+				</div>
+				<div class="card-links">
+					<a href="#" target="_blank" title="Repository in GitHub"><i class="fab fa-github-square"></i></a> <!--link del repositorio de GitHub-->
+					<a href="#" title="Web page"><i class="fas fa-globe"></i></a> <!--link del proyecto-->
+				</div>
+			</div>
 
-    <footer class="footer">
-        <p>footer</p>
-    </footer>
+			<div class="card">
+				<div class="card-img">
+				</div>
+				<div class="card-title">
+					<h2>Name Project</h2>
+				</div>
+				<div class="card-links">
+					<a href="#" title="Repository in GitHub"><i class="fab fa-github-square"></i></a> <!--link del repositorio de GitHub-->
+					<a href="#" title="Web page"><i class="fas fa-globe"></i></a> <!--link del proyecto-->
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-img">
+				</div>
+				<div class="card-title">
+					<h2>Name Project</h2>
+				</div>
+				<div class="card-links">
+					<a href="#" title="Repository in GitHub"><i class="fab fa-github-square"></i></a> <!--link del repositorio de GitHub-->
+					<a href="#" title="Web page"><i class="fas fa-globe"></i></a> <!--link del proyecto-->
+				</div>
+			</div>
+		</div>
+
+		<div class="button-project">
+			<button class="btn">More projects in my GitHub</button>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+        <div class="contact-headings">
+			<h2>Contact</h2>
+			<div class="divider"></div>
+		</div>
+		<div class="container-contact">
+			<h3>Send me a message...</h3>
+			<form id="form" action="" class="form">
+				<input name="name" required type="text" placeholder="Name">
+				<input name="email" required type="email" placeholder="Email">
+				<textarea name="message" placeholder="Place your message here..."></textarea>
+				<button type="submit" class="btn">Send message</button>
+			</form>
+		</div>
+    </section>
+            
+	<footer class="footer">
+        <div class="footer-content">
+			<h2>Dylan Peralta</h2>
+			<h5>Frontend Developer</h5>
+		</div>
+		<div class="socialMedia">
+                <a href="https://www.linkedin.com/in/dylan-peralta-a947a4217/" title="@Dylan Peralta" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/dylann_peralta/?hl=es" title="@dylann_peralta" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a href="#contact" title="dylanperaltasalerno@gmail.com"><i class="fas fa-envelope-square"></i></a>
+        </div>
+    </footer>   
+	<script></script> 
 </body>
 </html>
