@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dylan Peralta | mi portafolio | Home</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<!--Styles-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/tablet.css" media="(min-width:768px)">
+	<link rel="stylesheet" type="text/css" href="./css/mobile.css" media="(max-width:500px)">
+    <!--Foonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2e5cc30c24.js" crossorigin="anonymous"></script>
@@ -20,10 +24,10 @@
 					<h2><span>D</span>P</h2>
 				</div>
 				<ul class="menu">
-					<li><a class="active" href="#home">Home</a></li>
-					<li><a href="#aboutMe">About me</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a class="active" href="#home">Inicio</a></li>
+					<li><a href="#aboutMe">Conóceme</a></li>
+					<li><a href="#portfolio">Portafolio</a></li>
+					<li><a href="#contact">Contacto</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -31,10 +35,10 @@
 		<main class="main">
 			<img src="./img/perfilSinFondo.png" alt="Dylan Peralta picture">
 			<div class="info-content">
-				<h1>Hi I'm <span>Dylan</span> Peralta</h1>
-				<p>Web Developer Fronted Jr</p>
-				<a download href="#"> 
-					<button class="btn">Download CV</button>
+				<h1>Hola soy <span>Dylan</span> Peralta</h1>
+				<p>Desarrollador Web Frontend Jr</p>
+				<a download href="file:///C:/Users/dylan/Desktop/cv/DylanPeraltaCV.pdf"> 
+					<button class="btn">Descargar CV</button>
 				</a>
 			</div>
 		</main>
@@ -42,39 +46,41 @@
 
 	<div class="about" id="aboutMe">
 		<div class="about-info">
-			<h2>About me</h2>
+			<h2>Conóceme</h2>
 			<div class="divider"></div>
-			<p>I have knowledge of Frontend technologies such as HTML, CSS, JavaScript, React.js. I like to code things from scratch and I enjoy bringing ideas to life in the browser.</p>
-			<p>I do not have experience other than my projects, however, my desire to continue growing and learning increases every day and I am in search of new experiences.</p>
-			<button class="btn">Read more</button>
+			<p>Me llamo Dylan y soy desarrollador Frontend Jr, con conocimientos en tecnologías como HTML, CSS, JavaScript y React.js.<br>
+			Utilizo Git y GitHub para gestionar proyectos y VisualStudio para trabajar mi código.</p>
+			<p>Me gusta construir cosas en el navegador y plasmar mis ideas en la pantalla. Mi objetivo es poder trabajar en proyectos para Web3 haciendo de internet un lugar mucho más libre para todos y todas.</p>
+			<p>Actualmente me encuentro en busqueda de proyectos que me permitan superarme y mejorar mis habilidades, ademas de ganar experiencia, si te intereza trabajar conmigo enviame un mail a mi <a href="#contact">correo</a>, te respondere con mucho gusto.</p>
+			
 		</div>
 		<img src="./img/pexels-meAloha.jpg" alt="Dylan Peralta image">
 	</div>
 	
 	<section class="portfolio" id="portfolio">
 		<div class="portfolio-headings">
-			<h2>My Portfolio</h2>
+			<h2>Mi Portafolio</h2>
 			<div class="divider"></div>
 		</div>
 
 		<div class="container">
 			<div class="card">
-				<div class="card-img">
+				<div class="card-img" id="p1">
 				</div>
 				<div class="card-title">
-					<h2>Name Project</h2>
+					<h2>Nombre proyecto</h2>
 				</div>
 				<div class="card-links">
-					<a href="#" target="_blank" title="Repository in GitHub"><i class="fab fa-github-square"></i></a> <!--link del repositorio de GitHub-->
-					<a href="#" title="Web page"><i class="fas fa-globe"></i></a> <!--link del proyecto-->
+					<a href="https://github.com/dylanManuel2003/batatabit" target="_blank" title="Repository in GitHub"><i class="fab fa-github-square"></i></a> <!--link del repositorio de GitHub-->
+					<a href="https://dylanmanuel2003.github.io/batatabit/" target="_blank" title="Web page"><i class="fas fa-globe"></i></a> <!--link del proyecto-->
 				</div>
 			</div>
 
 			<div class="card">
-				<div class="card-img">
+				<div class="card-img" id="p2">
 				</div>
 				<div class="card-title">
-					<h2>Name Project</h2>
+					<h2>Nombre proyecto</h2>
 				</div>
 				<div class="card-links">
 					<a href="#" title="Repository in GitHub"><i class="fab fa-github-square"></i></a> <!--link del repositorio de GitHub-->
@@ -83,10 +89,10 @@
 			</div>
 
 			<div class="card">
-				<div class="card-img">
+				<div class="card-img" id="p3">
 				</div>
 				<div class="card-title">
-					<h2>Name Project</h2>
+					<h2>Nombre proyecto</h2>
 				</div>
 				<div class="card-links">
 					<a href="#" title="Repository in GitHub"><i class="fab fa-github-square"></i></a> <!--link del repositorio de GitHub-->
@@ -96,22 +102,24 @@
 		</div>
 
 		<div class="button-project">
-			<button class="btn">More projects in my GitHub</button>
+			<a href="https://github.com/dylanManuel2003?tab=repositories" target="_blank" class="btn-portfolio">
+				Más proyectos en mi GitHub
+			</a>
 		</div>
 	</section>
 
 	<section class="contact" id="contact">
         <div class="contact-headings">
-			<h2>Contact</h2>
+			<h2>Contacto</h2>
 			<div class="divider"></div>
 		</div>
 		<div class="container-contact">
-			<h3>Send me a message...</h3>
-			<form id="form" action="" class="form">
-				<input name="name" required type="text" placeholder="Name">
+			<h3>Enviame un mensaje...</h3>
+			<form class="form" name="form" method="POST" onsubmit="" action= "mailto:dylanperaltasalerno@gmail.com?subject=asunto" enctype ="text/plain" >
+				<input name="name" required type="text" placeholder="Nombre">
 				<input name="email" required type="email" placeholder="Email">
-				<textarea name="message" placeholder="Place your message here..."></textarea>
-				<button type="submit" class="btn">Send message</button>
+				<textarea name="message" placeholder="Escribe aquí tu mensaje..."></textarea>
+				<button type="submit" class="btn">Enviar</button>
 			</form>
 		</div>
     </section>
