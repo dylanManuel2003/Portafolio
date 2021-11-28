@@ -9,8 +9,8 @@
     $header = "Enviado desde la página de Dylan Peralta";
     $mensajeCompleto = $mensaje . "\nAtentamente: " . $nombre;
 
-    mail($destinatario, $asunto, $mensaje, $header);
-    echo '<h3>Mensaje enviado exitosamente!</h3>';
-    echo '<script>setTimeout(\'location.href="index.html"\', 1000)</script>';
+    mail($destinatario, $asunto, $mensajeCompleto, $header);
+    echo "<h3>Mensaje enviado exitosamente!</h3>";
+    echo "<script>setTimeout(\"location.href='index.html'\", 1000)</script>";
 
 ?>
