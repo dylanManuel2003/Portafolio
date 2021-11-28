@@ -5,6 +5,7 @@
 }
 
 html{
+    font-size: 85.5%;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
@@ -274,6 +275,7 @@ color: #00ffff;
     padding: 10px 20px;
     text-transform: none;
     background-color: #191c32;
+    margin-bottom: 5px;
 }
 .form input:focus{
     outline: none;

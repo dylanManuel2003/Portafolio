@@ -7,13 +7,14 @@
     <title>Dylan Peralta | mi portafolio | Home</title>
 	<!--Styles-->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" type="text/css" href="./css/tablet.css" media="(min-width:768px)">
+	<link rel="stylesheet" type="text/css" href="./css/tablet.css" media="(min-width:500px)">
 	<link rel="stylesheet" type="text/css" href="./css/mobile.css" media="(max-width:500px)">
     <!--Foonts-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/2e5cc30c24.js" crossorigin="anonymous"></script>
+    <!--Icons-->
+	<script src="https://kit.fontawesome.com/2e5cc30c24.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -115,9 +116,11 @@
 		</div>
 		<div class="container-contact">
 			<h3>Enviame un mensaje...</h3>
-			<form class="form" name="form" method="POST" onsubmit="" action= "mailto:dylanperaltasalerno@gmail.com?subject=asunto" enctype ="text/plain" >
+			<form class="form" name="form" method="POST" action="correo.php">
+			<!-- <form class="form" name="form" method="POST" onsubmit="" action= "mailto:dylanperaltasalerno@gmail.com?subject=asunto" enctype ="text/plain"> -->
 				<input name="name" required type="text" placeholder="Nombre">
 				<input name="email" required type="email" placeholder="Email">
+				<input name="asunto" required type="text" placeholder="Asunto">
 				<textarea name="message" placeholder="Escribe aquí tu mensaje..."></textarea>
 				<button type="submit" class="btn">Enviar</button>
 			</form>
