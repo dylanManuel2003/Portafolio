@@ -248,6 +248,9 @@ html{
 .card-links i {
     font-size: 1.5em;
 }
+.card-links i:hover{
+    color: #00ffff;
+}
 
 .btn-portfolio{
     font-weight: bold;
@@ -270,13 +273,22 @@ html{
     border-top-right-radius: 5px;
 }
 #p1{
-    background-image: url("../img/batatabitPage.jpg");
+    background-image: url("../img/criptolabPage.jpg");
+}
+#p1:hover{
+    background-image: url("../img/criptolabPagedescription.jpg");
 }
 #p2{
-    background-image: url("../img/proximamente.jpg");
+    background-image: url("../img/jsquiz.jpg");
+}
+#p2:hover{
+    background-image: url("../img/jsquizdescription.jpg");
 }
 #p3{
-    background-image: url("../img/proximamente.jpg");
+    background-image: url("../img/webPeliculas.jpg");
+}
+#p3:hover{
+    background-image: url("../img/webPeliculasdescription.jpg");
 }
 
 /*Contact*/
